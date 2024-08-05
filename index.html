@@ -1,18 +1,96 @@
 <!DOCTYPE html>
 
-<html lang="en">
-  <header>
+<html lang="pt-BR">
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações Pessoais</title>
-  </header>
+    <link rel="stylesheet" href="/style.css">
+    <title>Portfólio</title>
+  </head>
 
   <body>
-    <h1>Carlos Junior</h1>
-    <h2>Desenvolvedor de Sites</h2>
-    <h2>Contato (81) 99999-8888</h2>
-    <h4>Email: exemplo@exemplo.com.br</h4>
+    
+     <!-- Cabeçalho -->
+     <header>
+      <img src="logotipo.png" alt="Logotipo">
+      <nav>
+          <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#tecnologias">Tecnologias</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <li><a href="#contato">Contato</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <!-- Banner Principal -->
+  <section class="banner" id="inicio">
+      <div class="banner-content">
+          <h1>Bem-vindo ao Nosso Site</h1>
+          <p>Explore nosso trabalho e saiba mais sobre nossas tecnologias e projetos.</p>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#contato">Contato</a>
+      </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="services" id="tecnologias">
+      <h2>As Tecnologias que Trabalhamos</h2>
+      <p>Trabalhamos com uma variedade de tecnologias de ponta para entregar o melhor resultado para nossos clientes.</p>
+  </section>
+
+  <!-- Portfólio -->
+  <section class="portfolio" id="portfolio">
+      <h2>Nosso Portfólio</h2>
+      <div class="portfolio-gallery">
+          <div class="portfolio-item">
+              <img src="projeto1.jpg" alt="Projeto 1">
+              <h3>Projeto 1</h3>
+              <p>Descrição breve do Projeto 1, destacando as tecnologias utilizadas e o resultado alcançado.</p>
+          </div>
+          <div class="portfolio-item">
+              <img src="projeto2.jpg" alt="Projeto 2">
+              <h3>Projeto 2</h3>
+              <p>Descrição breve do Projeto 2, destacando as tecnologias utilizadas e o resultado alcançado.</p>
+          </div>
+          <div class="portfolio-item">
+              <img src="projeto3.jpg" alt="Projeto 3">
+              <h3>Projeto 3</h3>
+              <p>Descrição breve do Projeto 3, destacando as tecnologias utilizadas e o resultado alcançado.</p>
+          </div>
+      </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact" id="contato">
+      <h2>Contato</h2>
+      <form>
+          <input type="text" name="nome" placeholder="Seu Nome" required>
+          <input type="email" name="email" placeholder="Seu E-mail" required>
+          <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+          <button type="submit">Enviar Mensagem</button>
+      </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+      <nav>
+          <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#tecnologias">Tecnologias</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <li><a href="#contato">Contato</a></li>
+          </ul>
+      </nav>
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+  </footer>
+
   </body>
 
-  <footer>&copy; Desenvolvedor: Carlos Junior</footer>
+
 </html>
