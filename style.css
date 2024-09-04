@@ -1,13 +1,9 @@
-
- 
-
- body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
-
 
 header {
     background-color: #333;
@@ -44,7 +40,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #B48B46;
 }
-
 
 .banner {
     background-image: url('imagem/imagem-banner.webp');
@@ -98,7 +93,6 @@ nav ul li a:hover {
 .banner a:hover {
     background-color: #5cb868;
 }
-
 
 .servicos {
     padding: 50px 20px;
@@ -163,7 +157,6 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
-
 .contato {
     padding: 50px 20px;
     background-color: #f8f8f8;
@@ -209,7 +202,6 @@ nav ul li a:hover {
     background-color: #0056b3;
 }
 
-
 footer {
     background-color: #333;
     color: #fff;
@@ -253,4 +245,8 @@ footer .social-icons a {
 
 footer .social-icons a:hover {
     color: #ddd;
+}
+
+.icon-social {
+    width: 25px;
 }
