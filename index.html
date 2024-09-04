@@ -3,100 +3,120 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfólio</title>
   </head>
 
   <body>
-    
-     <!-- Cabeçalho -->
-     <header>
-      <img src="/imagem/logotipo.png" alt="Logotipo">
+    <!-- Cabeçalho -->
+    <header>
+      <img src="imagem/logotipo.png" alt="Logotipo" />
       <nav>
-          <ul>
-              <li><a href="#inicio">Início</a></li>
-              <li><a href="#tecnologias">Tecnologias</a></li>
-              <li><a href="#contato">Contato</a></li>
-          </ul>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
       </nav>
-  </header>
+    </header>
 
-  <!-- Banner Principal -->
-  <section class="banner" id="inicio">
+    <!-- Banner Principal -->
+    <section class="banner" id="inicio">
       <div class="banner-content">
-          <h1>Bem-vindo(a)</h1>
-          <p>Explore nosso trabalho e saiba mais sobre nossas tecnologias.</p>
-          <a href="#contato">Fale conosco</a>
+        <h1>Bem-vindo(a)</h1>
+        <p>Explore nosso trabalho e saiba mais sobre nossas tecnologias.</p>
+        <a href="#contato">Fale conosco</a>
       </div>
-  </section>
+    </section>
 
-  <!-- Serviços -->
-  <section class="servicos" id="tecnologias">
-      <h2>As Tecnologias que Trabalho</h2>
+    <!-- Serviços -->
+    <section class="servicos" id="tecnologias">
+      <h2>Tecnologias</h2>
       <p>HTML, CSS, Javascript e Wordpress.</p>
-  </section>
+    </section>
 
-  <!-- Tecnologias -->
-  <section class="tecnologias" id="tecnologias">
+    <!-- Tecnologias -->
+    <section class="tecnologias" id="tecnologias">
       <div class="tecnologias-gallery">
+        <div class="tecnologias-item">
+          <img src="imagem/html.webp" alt="html" />
+          <h3>HTML</h3>
+          <p>
+            HTML é a linguagem padrão de marcação utilizada para criar e
+            estruturar conteúdo na web. Ele define a estrutura básica de páginas
+            web, permitindo a inserção de texto, imagens, links e outros
+            elementos multimídia.
+          </p>
+        </div>
 
-          <div class="tecnologias-item">
-              <img src="imagem/html.webp" alt="html">
-              <h3>HTML</h3>
-              <p>HTML é a linguagem padrão de marcação utilizada para criar e estruturar conteúdo na web. Ele define a estrutura básica de páginas web, permitindo a inserção de texto, imagens, links e outros elementos multimídia.</p>
-          </div>
+        <div class="tecnologias-item">
+          <img src="imagem/css.webp" alt="CSS" />
+          <h3>CSS</h3>
+          <p>
+            CSS é uma linguagem de estilo usada para controlar a aparência
+            visual de páginas web. Ela permite personalizar a apresentação de
+            elementos HTML, incluindo layout, cores, fontes e responsividade,
+            proporcionando um design consistente e atraente.
+          </p>
+        </div>
 
-          <div class="tecnologias-item">
-              <img src="imagem/css.webp" alt="CSS">
-              <h3>CSS</h3>
-              <p>CSS é uma linguagem de estilo usada para controlar a aparência visual de páginas web. Ela permite personalizar a apresentação de elementos HTML, incluindo layout, cores, fontes e responsividade, proporcionando um design consistente e atraente.</p>
-          </div>
+        <div class="tecnologias-item">
+          <img src="imagem/javascript.webp" alt="Javascript" />
+          <h3>Javascript</h3>
+          <p>
+            JavaScript é uma linguagem de programação de script que permite
+            adicionar interatividade e funcionalidades dinâmicas a páginas web.
+            Com JavaScript, é possível criar animações, manipular elementos da
+            DOM, validar formulários e se comunicar com servidores, melhorando a
+            experiência do usuário.
+          </p>
+        </div>
 
-          <div class="tecnologias-item">
-              <img src="imagem/javascript.webp" alt="Javascript">
-              <h3>Javascript</h3>
-              <p>JavaScript é uma linguagem de programação de script que permite adicionar interatividade e funcionalidades dinâmicas a páginas web. Com JavaScript, é possível criar animações, manipular elementos da DOM, validar formulários e se comunicar com servidores, melhorando a experiência do usuário.</p>
-          </div>
-
-          <div class="tecnologias-item">
-            <img src="imagem/wordpress.webp" alt="Wordpress">
-            <h3>Wordpress</h3>
-            <p>WordPress é um sistema de gerenciamento de conteúdo (CMS) amplamente utilizado para criar e gerenciar sites e blogs. Ele oferece uma interface amigável e uma vasta gama de plugins e temas, permitindo a personalização e a fácil criação de sites responsivos e escaláveis.</p>
-          </div>
-
+        <div class="tecnologias-item">
+          <img src="imagem/wordpress.webp" alt="Wordpress" />
+          <h3>Wordpress</h3>
+          <p>
+            WordPress é um sistema de gerenciamento de conteúdo (CMS) amplamente
+            utilizado para criar e gerenciar sites e blogs. Ele oferece uma
+            interface amigável e uma vasta gama de plugins e temas, permitindo a
+            personalização e a fácil criação de sites responsivos e escaláveis.
+          </p>
+        </div>
       </div>
-  </section>
+    </section>
 
-  <!-- Contato -->
-  <section class="contato " id="contato">
+    <!-- Contato -->
+    <section class="contato" id="contato">
       <h2>Contato</h2>
       <form>
-          <input type="text" name="nome" placeholder="Seu Nome" required>
-          <input type="email" name="email" placeholder="Seu E-mail" required>
-          <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
-          <button type="submit">Enviar Mensagem</button>
+        <input type="text" name="nome" placeholder="Seu Nome" required />
+        <input type="email" name="email" placeholder="Seu E-mail" required />
+        <textarea
+          name="mensagem"
+          rows="5"
+          placeholder="Sua Mensagem"
+          required
+        ></textarea>
+        <button type="submit">Enviar Mensagem</button>
       </form>
-  </section>
+    </section>
 
-  <!-- Rodapé -->
-  <footer>
+    <!-- Rodapé -->
+    <footer>
       <nav>
-          <ul>
-              <li><a href="#inicio">Início</a></li>
-              <li><a href="#tecnologias">Tecnologias</a></li>
-              <li><a href="#contato">Contato</a></li>
-          </ul>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
       </nav>
       <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
       </div>
-  </footer>
-
+    </footer>
   </body>
-
-
 </html>
